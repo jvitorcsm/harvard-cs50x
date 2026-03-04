@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <cs50.h>
+
+int main(void)
+{
+    int n;
+    while (true)
+    {
+        n = get_int("What's N?: ");
+        if (n < 0)
+        {
+
+           continue;
+        }
+        else
+        {
+            break;
+        }
+    }
+
+    for (int i=0; i<n; i++)
+    {
+        printf("Meow\n");
+    }
+}
